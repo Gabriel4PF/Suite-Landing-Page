@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Suite landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  Request Beta Access
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <nav class="nav-container">
+          <svg class="icon logo-icon" width="100" height="34">
+            <use xlink:href="assets/sprite.svg#logo"></use>
+          </svg>
+          <a class="button cream-button">Request Beta Access</a>
+        </nav>
+      </div>
+    </header>
 
-  A super solution for your business.
+    <main>
+      <div class="container">
+        <div class="hero">
+          <svg class="icon curved-line" width="200" height="50">
+            <use xlink:href="assets/sprite.svg#pattern-curved-line-1"></use>
+          </svg>
+          <h1 class="flow hero-text">
+            A <b>super solution</b> for your
+            <b>business.</b>
+          </h1>
+          <p class="hero-desc flow">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
 
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
+          <a href="#" class="button flow"> Request Beta Access</a>
+        </div>
+        <div class="img_container">
+          <img src="assets/image-hero-landscape@2x.png" />
+        </div>
 
-  Request Beta Access
+        <ul class="hero-statistics" role="list">
+          <li>
+            <div class="statistics">
+              <span class="stat-numbers"> 2K+ </span>
+              <span class="stats-title">Companies</span>
+            </div>
+          </li>
+          <li>
+            <div class="statistics flow">
+              <span class="stat-numbers">8</span
+              ><span class="stats-title">Languages</span>
+            </div>
+          </li>
+          <li>
+            <div class="statistics flow">
+              <span class="stat-numbers">1.2M</span
+              ><span class="stats-title"> Leads</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="review-container">
+        <div class="footer-img-container">
+          <img src="assets\image-jeremy-small.png" alt="user on his phone" />
 
-  2K+
-  Companies
+          <svg class="icon footer-curved-line" width="200" height="50">
+            <use xlink:href="assets/sprite.svg#pattern-curved-line-1"></use>
+          </svg>
+        </div>
 
-  8
-  Languages
+        <div class="review-text">
+          <h2 class="review-title">It Just <b>works.</b></h2>
+          <p class="review-comment container flow">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <h3 class="review-name flow">Jeremy Robinson</h3>
 
-  1.2M
-  Leads
+          <h4 class="review-position">CMO, FYLO</h4>
+        </div>
+      </div>
+      <div class="container footer-container">
+        <a href="#">
+          <svg class="icon flow footer-logo" width="100" height="30">
+            <use xlink:href="assets/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <span class="flow copyright-text"> Copyright - Suite</span>
+        <nav class="socials-nav flow">
+          <ul class="socials-container flow">
+            <li>
+              <a href="">
+                <svg class="icon" width="50" height="50">
+                  <use xlink:href="assets/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
 
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite
-
-</body>
+            <li>
+              <a href=""
+                ><svg class="icon" width="50" height="30">
+                  <use xlink:href="assets/sprite.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg class="icon" width="50" height="30">
+                  <use xlink:href="assets/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
