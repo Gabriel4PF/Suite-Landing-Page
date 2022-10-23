@@ -20,4 +20,17 @@
   </symbol>
 
 
+ <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 54" id="pattern-curved-line-2">
+    <path d="M64.25.153C59.995 27.67 38.646 45.003.2 52.153" stroke="#FAF8F6" stroke-width="2" fill="none"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 538" id="pattern-blur">
+    <defs>
+      <filter x="-51%" y="-51%" width="202%" height="202%" filterUnits="objectBoundingBox" id="a">
+        <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+      </filter>
+    </defs>
+    <circle filter="url(#a)" cx="289" cy="412" r="147" transform="translate(-20 -143)" fill="#DB65E2" fill-rule="evenodd" opacity=".476"></circle>
+  </symbol>
+
 </svg>
